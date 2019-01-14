@@ -1,0 +1,902 @@
+/* Custom Styles */
+::selection {
+  background-color: #23aa38;
+  color: #FFFFFF;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* Main Styles */
+body {/*основний*/
+  background: #FFFFF0;/*колір ivory*/
+  color: #060000;     /*cимволи - темносірий*/
+  letter-spacing: 1px;/*між літерами*/
+}
+
+/* Addition Styles */
+.pt-5 {
+  padding-top: 1rem !important;
+}
+.pt-10 {
+  padding-top: 5rem !important;
+}
+.pb-5 {
+  padding-bottom: 1rem !important;
+}
+.pb-10 {
+  padding-bottom: 5rem !important;
+}
+.mb-5 {
+  margin-bottom: 5rem !important;
+}
+.header-h3 {
+  text-align: center;
+  /*color: #818181;*/
+  font-size: 35px;
+}
+
+/* Scroll Top */
+.btn-top {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #23aa38;
+  width: 50px;
+  height: 50px;
+  display: block;
+  display: none;
+  z-index: 15;
+  text-decoration: none;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.btn-top i {
+  color: #fff;
+  margin: 0;
+  position: relative;
+  left: 16px;
+  top: 13px;
+  font-size: 19px;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.btn-top:hover {
+  background: rgba(35, 170, 56, 0.5);
+  border-radius: 50%;
+}
+.btn-top:hover i {
+  color: #fff;
+  top: 5px;
+}
+
+/* Read more */
+#dots-1 { opacity: 0; }
+#dots-2 { opacity: 0; }
+#dots-3 { opacity: 0; }
+#dots-4 { opacity: 0; }
+#dots-5 { opacity: 0; }
+#dots-6 { opacity: 0; }
+#dots-7 { opacity: 0; }
+#dots-8 { opacity: 0; }
+
+#more-1 { display: none; }
+#more-2 { display: none; }
+#more-3 { display: none; }
+#more-4 { display: none; }
+#more-5 { display: none; }
+#more-6 { display: none; }
+#more-7 { display: none; }
+#more-8 { display: none; }
+
+#readMoreBtn-1 { margin-right: 30px; }
+#readMoreBtn-2 { margin-right: 30px; }
+#readMoreBtn-3 { margin-right: 30px; }
+#readMoreBtn-4 { margin-right: 30px; }
+#readMoreBtn-5 { margin-right: 30px; }
+#readMoreBtn-6 { margin-right: 30px; }
+#readMoreBtn-7 { margin-right: 30px; }
+#readMoreBtn-8 { margin-right: 30px; }
+
+/* Main Image */
+.carousel-item            /* елемент слайдів каруселі*/
+{
+  background-position: bottom;
+  height: 75vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.carousel-caption         /* заголовок слайдів каруселі*/
+{
+  margin-bottom: 5px;
+  font-size: 35px;
+  /*color: green;// зробити яскравшим */
+}
+.carousel-indicators li   /* індикатори-кружечки слайдів каруселі*/
+{
+  width: 20px;
+  height: 20px;
+  border: 2px solid #495253;
+  border-radius: 10px;
+  transition: all .7s;
+}
+.carousel-indicators li:hover /* індикатори-кружечки слайдів каруселі*/
+{
+  background: #23aa38;
+}
+.slider-h3 {
+  font-size: 35px;
+}
+.slider-p {
+  font-size: 30px;
+}
+
+/* Navigation */
+.fixHamb {
+  display: block;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 20;
+  transition: all 2s;
+}
+.hamburger--collapse .hamburger-inner::after {
+  background: #818181;
+}
+.hamburger--collapse .hamburger-inner::before {
+  background: #818181;
+}
+.hamburger--collapse .hamburger-inner {
+  background: #818181;
+  width: 50%;
+  transition: all .5s;
+}
+.hamburger-box:hover .hamburger-inner {
+  width: 100%;
+}
+button:focus {
+  outline: 0;
+}
+.overlay {
+  height: 0%;
+  width: 100%;
+  position: fixed;
+  z-index: 20;
+  top: 0;
+  left: 0;
+  background-color: #303030d6;
+  overflow-y: hidden;
+  transition: .7s;
+}
+.overlay-content {
+  position: relative;
+  top: 20%;
+  width: 100%;
+  text-align: center;
+  letter-spacing: 5px;
+}
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #a2a2a2;
+  display: block;
+  transition: 0.3s;
+}
+.overlay a:hover, .overlay a:focus {
+  color: white;
+}
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+/* About Course */
+.about-course-p {
+  text-align: justify;
+  text-indent: 20px;
+  margin-top: 0.2em;    /* Отступ сверху */
+  margin-bottom: 0.2em;   /* Отступ снизу */
+  font-size: 20px;
+}
+
+/* Program Of Course */
+.card {
+  background: inherit;
+  border: 2px solid rgb(133, 133, 133);
+  border-radius: 7px;
+  transition: all .5s;
+}
+.rounded-circle {
+  transition: all .5s;
+}
+.card-body ul {
+  padding: 0px;
+  list-style: none;
+}
+.card:hover {
+  background: rgb(73, 73, 73);
+  border: 2px solid rgb(73, 73, 73);
+  color: white;
+}
+.card-1, .card-2, .card-3 {
+  transition: all .5s;
+}
+.card-1:hover {
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+.card-2:hover {
+  border-radius: 30px;
+}
+.card-3:hover {
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.btn {
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  transition: all .5s;
+  border: none;
+  background: #6b6b6b;
+  color: white;
+}
+.btn:hover {
+  background: white;
+  color: #777;
+  animation: anim-btn 2s;
+}
+@keyframes anim-btn {
+  0%    {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  12.5% {
+    border-top-left-radius: 20px;
+  }
+  25%   {
+    border-top-right-radius: 20px;
+  }
+  37.5% {
+    border-bottom-left-radius: 20px;
+  }
+  50%   {
+    border-bottom-right-radius: 20px;
+  }
+  62.5% {
+    border-top-left-radius: 5px;
+  }
+  75%   {
+    border-top-right-radius: 5px;
+  }
+  87.5% {
+    border-bottom-left-radius: 5px;
+  }
+  100%  {
+    border-bottom-right-radius: 5px;
+  }
+}
+
+/* Our Team */
+.img-rounded {
+  border-radius: 10px;
+}
+
+/* Partners */
+.partners-bg {
+  background-color: #d1d1d1;
+}
+
+#Contacts {
+  background-color: white;
+}
+.contacts-h3 {
+  font-size: 30px;
+  text-transform: uppercase;
+}
+.contacts-h4 {
+  font-size: 23px;
+  font-weight: 400;
+  padding-left: 45px;
+}
+.contacts-ul {
+  list-style: none;
+  font-size: 20px;
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+.contacts-li {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.contacts-li:last-child {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.contacts-li-2 {
+  padding-bottom: 0px;
+}
+.contacts-icons {
+  color: #23aa38;
+  font-size: 20px;
+  padding-right: 10px;
+}
+.contact-number-span-1 {
+  margin-left: -5px;
+}
+.contact-number-span-2 {
+  padding-left: 35px;
+  padding-top: 14px;
+}
+.contacts-a {
+  color: #235404;
+  margin-left: 10px;
+  transition: all .2s;
+}
+.contacts-a:hover {
+  color: #23aa38;
+  text-decoration: none;
+}
+.map {
+  width: 100%;
+  height: 350px;
+  border: none;
+}
+
+/* Course - Olimp */
+.carousel-item-olimp {
+  height: 60vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.carousel-caption-olimp {
+  bottom: 10px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+.course-Olimp-h3 {
+  font-size: 45px;
+}
+.course-Olimp-p {
+  font-size: 35px;
+}
+
+/* Program of course by Days */
+#accordion {
+  text-align: center;
+}
+.card:hover {
+  background: rgb(186, 186, 186);
+}
+.card-accordion {
+  margin-bottom: 20px;
+}
+.card-accordion:hover {
+  background-color: #ffffff00;
+}
+.card-header {
+  padding: 10px;
+  font-size: 25px;
+  text-align: left;
+}
+.card-link {
+  color: #777;
+}
+.card-link:hover {
+  color: #777;
+}
+.days-h3 {
+  font-size: 35px;
+  margin-bottom: 50px;
+}
+.card-body ul {
+  text-align: justify;
+  margin-bottom: 0px;
+}
+.card-body ul li {
+  text-align: justify;
+  color: #909090;
+}
+
+/* Media Queries */
+@media (min-width: 320px)  and (max-width: 375px)  {
+  /* Our Team */
+  .responsive-ourTeam {
+     font-size: 16px;
+    margin-bottom: 20px !important;
+  }
+
+  /* Contacts */
+  .contact-number-span-1 {
+    font-size: 16px;
+  }
+  .contact-number-span-2 {
+    font-size: 16px;
+    padding-left: 20px;
+  }
+  .contacts-h4 {
+    font-size: 18px;
+    padding-left: 40px;
+  }
+  .contacts-h3-1 {
+    text-align: center;
+  }
+  .contacts-h3-2 {
+    font-size: 26px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+}
+@media (min-width: 375px)  and (max-width: 400px)  {
+ /* Our Team */
+ .responsive-ourTeam {
+   margin-bottom: 40px !important;
+ }
+
+ /* Contacts */
+ .contact-number-span-1 {
+   font-size: 16px;
+ }
+ .contact-number-span-2 {
+   font-size: 16px;
+   padding-left: 35px;
+ }
+ .contacts-h4 {
+   font-size: 18px;
+   padding-left: 40px;
+ }
+ .contacts-h3-1 {
+   text-align: center;
+ }
+ .contacts-h3-2 {
+   font-size: 26px;
+   margin-top: 30px;
+   margin-bottom: 30px;
+   text-align: center;
+ }
+}
+@media (min-width: 400px)  and (max-width: 425px)  {
+ /* Our Team */
+ .responsive-ourTeam {
+   margin-bottom: 40px !important;
+ }
+
+ /* Contacts */
+ .contact-number-span-1 {
+   font-size: 16px;
+ }
+ .contact-number-span-2 {
+   font-size: 16px;
+   padding-left: 35px;
+ }
+ .contacts-h4 {
+   font-size: 18px;
+   padding-left: 40px;
+ }
+ .contacts-h3-1 {
+   text-align: center;
+ }
+ .contacts-h3-2 {
+   font-size: 26px;
+   margin-top: 30px;
+   margin-bottom: 30px;
+   text-align: center;
+ }
+}
+@media (min-width: 425px)  and (max-width: 550px)  {
+ /* Our Team */
+ .responsive-ourTeam {
+   margin-bottom: 40px !important;
+ }
+
+ /* Contacts */
+ .contact-number-span-1 {
+   font-size: 20px;
+ }
+ .contact-number-span-2 {
+   font-size: 20px;
+   padding-left: 35px;
+ }
+ .contacts-h4 {
+   font-size: 18px;
+   padding-left: 40px;
+ }
+ .contacts-h3-1 {
+   text-align: center;
+ }
+ .contacts-h3-2 {
+   font-size: 26px;
+   margin-top: 30px;
+   margin-bottom: 30px;
+   text-align: center;
+ }
+}
+@media (min-width: 550px)  and (max-width: 650px)  {
+ /* Our Team */
+ .responsive-ourTeam {
+   margin-bottom: 40px !important;
+ }
+
+ /* Contacts */
+ .contact-number-span-1 {
+   font-size: 20px;
+ }
+ .contact-number-span-2 {
+   font-size: 20px;
+   padding-left: 35px;
+ }
+ .contacts-h4 {
+   font-size: 21px;
+   padding-left: 40px;
+ }
+ .contacts-h3-1 {
+   text-align: center;
+ }
+ .contacts-h3-2 {
+   font-size: 26px;
+   margin-top: 30px;
+   margin-bottom: 30px;
+   text-align: center;
+ }
+}
+@media (min-width: 650px)  and (max-width: 768px)  {
+ /* Our Team */
+ .responsive-ourTeam {
+   margin-bottom: 40px !important;
+ }
+
+ /* Contacts */
+ .contact-number-span-1 {
+   font-size: 20px;
+ }
+ .contact-number-span-2 {
+   font-size: 20px;
+   padding-left: 35px;
+ }
+ .contacts-h4 {
+   font-size: 20px;
+   padding-left: 20px;
+ }
+ .contacts-h3-1 {
+   text-align: center;
+ }
+ .contacts-h3-2 {
+   font-size: 20px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   text-align: center;
+ }
+}
+@media (min-width: 768px)  and (max-width: 1024px) {
+ /* Program Of Course */
+ .card h3 {
+   font-size: 20px;
+ }
+ .btn {
+   font-size: 13px;
+   font-weight: 600;
+ }
+
+ /* Our Team */
+ .responsive-ourTeam {
+   margin-bottom: 40px !important;
+ }
+
+ /* Contacts */
+ .contact-number-span-1 {
+   font-size: 19px;
+ }
+ .contact-number-span-2 {
+   font-size: 18px;
+   padding-left: 35px;
+ }
+ .contacts-h4 {
+   font-size: 19px;
+   padding-left: 40px;
+ }
+ .contacts-h3-2 {
+   font-size: 26px;
+   margin-top: 0px;
+   margin-bottom: 0px;
+ }
+ .contacts-ul {
+   padding-top: 0px !important;
+ }
+ .contacts-li {
+   padding-top: 0px;
+ }
+
+ /* Read More */
+ #readMoreBtn-1 { 
+  margin-right: 0px; 
+  cursor: pointer;
+  /*color: #1d8c0d;*/
+  color: red;
+  font-weight: 500;
+}
+@media (min-width: 1024px) and (max-width: 1200px) {
+ /* Program Of Course */
+ .card h3 {
+   font-size: 22px;
+ }
+ .btn {
+   font-size: 15px;
+   font-weight: 600;
+ }
+
+ /* Our Team */
+ .responsive-ourTeam {
+   margin-bottom: 40px !important;
+ }
+ .ourTeam-h3 {
+   font-size: 20px;
+ }
+
+ /* Contacts */
+ .contact-number-span-1 {
+   font-size: 18px;
+ }
+ .contact-number-span-2 {
+   font-size: 18px;
+   padding-left: 35px;
+ }
+ .contacts-h4 {
+   font-size: 18px;
+   padding-left: 35px;
+ }
+ .contacts-h3-2 {
+   font-size: 26px;
+   margin-top: 0px;
+   margin-bottom: 0px;
+ }
+ .contacts-ul {
+   padding-top: 0px !important;
+ }
+ .contacts-li {
+   padding-top: 0px;
+ }
+
+ /* Read More */
+ #readMoreBtn-1 { margin-right: 0px;  color: red;}
+ #readMoreBtn-2 { margin-right: 0px; color: red;}
+ #readMoreBtn-3 { margin-right: 0px; color: red;}
+ #readMoreBtn-4 { margin-right: 0px; color: red;}
+ #readMoreBtn-5 { margin-right: 0px; color: red;}
+ #readMoreBtn-6 { margin-right: 0px; color: red;}
+ #readMoreBtn-7 { margin-right: 0px; color: red;}
+ #readMoreBtn-8 { margin-right: 0px; color: red;}
+}
+@media (min-width: 1200px) and (max-width: 1440px) {
+ /* Program Of Course */
+ .card h3 {
+   font-size: 30px;
+ }
+ .btn {
+   font-size: 20px;
+   font-weight: 600;
+ }
+
+ /* Our Team */
+ .responsive-ourTeam {
+   margin-bottom: 40px !important;
+ }
+ .ourTeam-h3 {
+   font-size: 16px;
+ }
+
+ /* Contacts */
+ .contact-number-span-1 {
+   font-size: 19px;
+ }
+ .contact-number-span-2 {
+   font-size: 18px;
+   padding-left: 35px;
+ }
+ .contacts-h4 {
+   font-size: 19px;
+   padding-left: 40px;
+ }
+ .contacts-h3-2 {
+   font-size: 26px;
+   margin-top: 0px;
+   margin-bottom: 0px;
+ }
+ .contacts-ul {
+   padding-top: 0px !important;
+ }
+ .contacts-li {
+   padding-top: 0px;
+ }
+}
+@media (min-width: 1800px) and (max-width: 2200px) {
+ /* Program Of Course */
+ .card h3 {
+   font-size: 30px;
+ }
+ .btn {
+   font-size: 25px;
+   font-weight: 300;
+ }
+ .card-li {
+   font-size: 20px;
+ }
+
+ /* Our Team */
+ .responsive-ourTeam {
+  font-size: 20px;
+   margin-bottom: 20px !important;
+ }
+ .ourTeam-h3 {
+   font-size: 20px;
+ }
+ #more-1 { font-size: 16px; color: blue;}
+ #more-2 { font-size: 16px; color: blue;}
+ #more-3 { font-size: 16px; color: blue;}
+ #more-4 { font-size: 16px; color: blue;}
+ #more-5 { font-size: 16px; color: blue;}
+ #more-6 { font-size: 16px; color: blue;}
+ #more-7 { font-size: 16px; color: blue;}
+ #more-8 { font-size: 16px; color: blue;}
+ #readMoreBtn-1 { font-size: 16px; color: blue;}
+ #readMoreBtn-2 { font-size: 16px; color: blue;}
+ #readMoreBtn-3 { font-size: 16px; color: blue;}
+ #readMoreBtn-4 { font-size: 16px; color: blue;}
+ #readMoreBtn-5 { font-size: 16px; color: blue;}
+ #readMoreBtn-6 { font-size: 16px; color: blue;}
+ #readMoreBtn-7 { font-size: 16px; color: blue;}
+ #readMoreBtn-8 { font-size: 16px; color: blue;}
+
+ /* Contacts */
+ .contact-number-span-1 {
+   font-size:16px;
+ }
+ .contact-number-span-2 {
+   font-size:20px;
+   padding-left: 35px;
+ }
+ .contacts-h4 {
+   font-size: 20px;
+   padding-left: 40px;
+ }
+ .contacts-h3-2 {
+   font-size: 30px;
+   margin-top: 0px;
+   margin-bottom: 0px;
+ }
+ .contacts-ul {
+   padding-top: 0px !important;
+ }
+}
+@media (min-width: 2200px) and (max-width: 2600px) {
+ /* :bout Course */
+ .about-course-p {
+  font-size: 20px;
+ }
+.about-course-a {
+  font-size: 20px;
+  color: red;
+  
+ }
+ /* Program Of Course */
+ .card h3 {
+   font-size: 30px;
+ }
+ .btn {
+   font-size: 25px;
+   font-weight: 500;
+ }
+ .mt-5-li {
+   font-size: 25px;
+ }
+
+ /* Our Team */
+ .responsive-ourTeam {
+  font-size: 25px;
+  margin-bottom: 20px !important;
+ }
+ .ourTeam-h3 {
+   font-size: 16px;
+ }
+ #more-1 { font-size: 16px; }
+ #more-2 { font-size: 16px; }
+ #more-3 { font-size: 16px; }
+ #more-4 { font-size: 16px; }
+ #more-5 { font-size: 16px; }
+ #more-6 { font-size: 16px; }
+ #more-7 { font-size: 16px; }
+ #more-8 { font-size: 16px; }
+ #readMoreBtn-1 { font-size: 16px; /*color: red;*/}
+ #readMoreBtn-2 { font-size: 16px; }
+ #readMoreBtn-3 { font-size: 16px; }
+ #readMoreBtn-4 { font-size: 16px; }
+ #readMoreBtn-5 { font-size: 16px; }
+ #readMoreBtn-6 { font-size: 16px; }
+ #readMoreBtn-7 { font-size1620px; }
+
+ /* Contacts */
+ .contacts-h3 {
+   font-size: 35px;
+ }
+ .contact-number-span-1 {
+   font-size: 20px;
+ }
+ .contact-number-span-2 {
+   font-size: 20px;
+   padding-left: 20px;
+ }
+ .contacts-h4 {
+   font-size: 20px;
+   padding-left: 20px;
+ }
+ .contacts-h3-2 {
+   font-size: 20px;
+   margin-top: 0px;
+   margin-bottom: 0px;
+ }
+ .contacts-li {
+   font-size: 20px;
+ }
+ .contacts-ul {
+   padding-top: 0px !important;
+ }
+ .map {
+   width: 800px;/*width: 1000px;*/
+ }
+}
+
+/* Advanced Media Queries */
+@media screen and (max-height: 450px) {
+  .overlay {
+    overflow-y: auto;
+  }
+  .overlay a {
+    font-size: 20px
+  }
+  .overlay .closebtn {
+    font-size: 30px;
+    top: 15px;
+    right: 20px;
+  }
+}
+@media screen and (max-width: 450px)  {
+  /* Scroll Top */
+  .btn-top {
+    display: none !important;
+  }
+
+  /* Navigation */
+  #Navigation {
+    display: none;
+  }
+}
