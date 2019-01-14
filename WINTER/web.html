@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Title -->
+  <title>Основи web-розробки - Зимова школа програмування</title>
+
+  <!-- Responsive -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- Seo -->
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Favicon -->
+  <link rel="icon" href="img/favicon/favicon.png" type="image/x-icon">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/hamburgers.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+
+</head>
+
+<body>
+
+  <!-- Scroll Top Btn -->
+  <div id="Scroll Top">
+    <a class="btn-top">
+      <i class="fa fa-arrow-up"></i>
+    </a>
+  </div>
+  <!-- меню Навігація -->
+  <nav id="Navigation">
+
+    <div id="myNav" class="overlay">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <div class="overlay-content">
+        <!-- Список команд меню -->
+        <a class="navLink" onclick="closeNav()" href="index.html"  >Головна           </a>
+        <a class="navLink" onclick="closeNav()" href="android.html">Кодуємо Android   </a>
+        <a class="navLink" onclick="closeNav()" href="olimp.html"  >Основи Web-дизайну</a>
+        <a class="navLink" onclick="closeNav()" href="#Our-Team"   >Викладачі курсу   </a>
+        <a class="navLink" onclick="closeNav()" href="#Contacts"   >Контакти          </a>
+      </div>
+    </div>
+
+    <!-- hamburgers.css   -->
+    <!-- кнопка Навігації -->
+    <button class="hamburger hamburger--collapse" type="button" onclick="openNav()">
+      <span class="hamburger-box fixHamb" id="hambFadeIn">
+        <span class="hamburger-inner"><!-- текст під кнопкою -->
+        </span>
+      </span>
+    </button>
+
+  </nav>
+  <!-- Слайдер карусель  -->
+  <!-- Main Image -->
+  <section id="Main-Image">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+
+      <div class="carousel-inner" role="listbox"> <!-- блок елементи каруселі -->
+        <!-- Слайд 1 -->
+        <div class="carousel-item active" style="background-image: linear-gradient(to right bottom, rgba(61, 61, 61, 0.8), rgba(28, 28, 28, 0.8)), url('img/slider/olimp1.jpg');">
+          <div  class="carousel-caption"> <!-- заголовок слайда 1 -->
+            <h3 class="slider-h3">Зимова школа програмування </h3>
+            <p  class="slider-p" >Хочеш зробити власний сайт?</p>
+          </div> <!-- кінець заголовка слайда 1 -->
+        </div> <!-- кінець слайда 1 -->
+        
+        <!-- Слайд 2 -->
+        <div class="carousel-item" style="background-image: linear-gradient(to right bottom, rgba(61, 61, 61, 0.8), rgba(28, 28, 28, 0.8)), url('img/slider/android.jpg');">
+          <div  class="carousel-caption"> <!-- заголовок слайда 2 -->
+            <h3 class="slider-h3">Зимова школа програмування </h3>
+            <p  class="slider-p" >Цікавишся сучасними технологіями? </p>
+          </div> <!-- кінець заголовка слайда 2 -->
+        </div> <!-- кінець слайда 2 -->
+        
+        <!-- Слайд 3 -->
+        <div class="carousel-item" style="background-image: linear-gradient(to right bottom, rgba(61, 61, 61, 0.8), rgba(28, 28, 28, 0.8)), url('img/slider/web.jpg');">
+          <div  class="carousel-caption"> <!-- заголовок слайда 3 -->
+            <h3 class="slider-h3">Зимова школа програмування </h3>
+            <p  class="slider-p" >Плануєш вивчати комп'ютерні науки? </p>
+          </div> <!-- кінець заголовка слайда 3 -->
+        </div> <!-- кінець слайда 3 -->
+      </div> <!-- кінець блоку елементи каруселі -->
+    </div>
+  </section>
+
+  <!-- About Course -->
+  <section class="pt-5 pb-5" id="About-Course">
+    <div class="container">
+      <h3 class="text-uppercase text-center mb-4 header-h3">Безкоштовні курси зі створення web-сайтів</h3>
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+          <p class="about-course-p">
+           <b> Записуйся на на курс, по завершенні якого ти навчишся створювати сучасні сайти.</b><br>
+            Курс проводиться за підтримки фонду BrainBasket (https://brainbasket.org/). Навчальна програма базуються на курсах провідних навчальних закладів світу та визнаних відкритих освітніх ресурсів, зокрема University of London, Microsoft, W3Schools, Mozilla MDN web docs та ін. <br> 
+            Програма маю на меті навчити слухача основам розробки сучасних веб-сторінок із застосуванням найпоширеніших  методик  та  інструментів.<br>   
+            Програма  викладаються  у  форматі  blended  learning  (змішане  навчаннѐ)  та  передбачає  16 аудиторних занять (15 навчальних + захист фінальних проектів слухачів) тривалістя 2 астрономічні години  кожне  протягом  8  тижнів.  Передбачаються,  що  на  кожне  таке  заняття  слухачі приходитимуть,  самостійно  опанувавши  передбачені  цією  програмою  обсяги  теоретичного матеріалу та (там де це передбачено) виконавши домашнє завдання. <br>  
+            В залежності від складності та логіки викладання, кожне аудиторне заняття покриває від 1 до 7 тем (в залежності від їх складності). За потреби деякі заняття викладач може ділити на окремі частини, зважаючи на успішність та рівень засвоєння матеріалу групою.   <br> 
+            Кожне із занять містить практичні рекомендації та приклади, теоретичний матеріал для самостійного опрацювання слухачами та домашні завдання для них. <br> 
+            За підсумками проходження навчання в рамках проекту всі учасники повинні пройти випускне тестування та захистити фінальний проект.                            
+          </p>
+          <a class="btn mt-2 mb-4" target="_blank" href="https://goo.gl/Y8XY2a"> Детальніше про курс...</a>
+            
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Program of Course -->
+ <section>
+    <div class="container">
+      <div id="accordion">
+        <h3 class="days-h3">Щоденник курсу</h3>
+        <p> Ми будемо разом вести щоденник повідомляючи Вам про тему і зміст заняття, домашні завдання з практики та теорії</p>
+        <!-- Day 1 -->
+        <div class="card card-accordion">
+          <a class="card-link" data-toggle="collapse" href="#collapseOne">
+            <div class="card-header"> Початок занять курсу Основи Web - розробки
+            </div>
+          </a>
+          <div id="collapseOne" class="collapse" data-parent="#accordion">
+            <div class="card-body">
+              <ul>
+                 <li>
+
+                 </li>
+                
+              </ul>
+            </div>
+          </div>
+        </div> 
+
+      <!-- 
+        <div class="card card-accordion">
+          <a class="card-link" data-toggle="collapse" href="#collapseTwo">
+            <div class="card-header">
+              День 2 з курсу Основи web-сайтів
+            </div>
+          </a>
+          <div id="collapseTwo" class="collapse" data-parent="#accordion">
+            <div class="card-body">
+              <ul>
+                <li> </li>
+               
+              </ul>
+            </div>
+          </div>
+        </div>
+ -->
+        <!-- <div class="card card-accordion">
+          <a class="card-link" data-toggle="collapse" href="#collapseThree">
+            <div class="card-header">
+              День 3 з курсу Основи web-сайтів
+            </div>
+          </a>
+          <div id="collapseThree" class="collapse" data-parent="#accordion">
+            <div class="card-body">
+              <ul>
+                <li> </li>
+                
+              </ul>
+            </div>
+          </div>
+        </div>
+ -->
+       <!--  <div class="card card-accordion">
+          <a class="card-link" data-toggle="collapse" href="#collapseFour">
+            <div class="card-header">
+              День 4 з курсу Основи web-сайтів
+            </div>
+          </a>
+          <div id="collapseFour" class="collapse" data-parent="#accordion">
+            <div class="card-body">
+              <ul>
+                <li> </li>
+               
+              </ul>
+            </div>
+          </div>
+        </div> -->
+
+       <!--  <div class="card card-accordion">
+          <a class="card-link" data-toggle="collapse" href="#collapseFive">
+            <div class="card-header">
+              День 5 з курсу Основи web-сайтів
+            </div>
+          </a>
+          <div id="collapseFive" class="collapse" data-parent="#accordion">
+            <div class="card-body">
+              <ul>
+                <li> </li>
+                
+              </ul>
+            </div>
+          </div>
+        </div> -->
+
+      
+       <!--  <div class="card card-accordion">
+          <a class="card-link" data-toggle="collapse" href="#collapseSix">
+            <div class="card-header">
+              День 6 з курсу Основи web-сайтів
+            </div>
+          </a>
+          <div id="collapseSix" class="collapse" data-parent="#accordion">
+            <div class="card-body">
+              <ul>
+                <li> </li>
+               
+              </ul>
+            </div>
+          </div>
+        </div>
+ -->
+    
+       <!--  <div class="card card-accordion">
+          <a class="card-link" data-toggle="collapse" href="#collapseSeven">
+            <div class="card-header">
+              День 7 з курсу Основи web-сайтів
+            </div>
+          </a>
+          <div id="collapseSeven" class="collapse" data-parent="#accordion">
+            <div class="card-body">
+              <ul>
+                <li> </li>
+                
+              </ul>
+            </div>
+          </div>
+        </div> -->
+
+       <!--  <div class="card card-accordion">
+          <a class="card-link" data-toggle="collapse" href="#collapseEigth">
+            <div class="card-header">
+              День 8 з курсу Основи web-сайтів
+            </div>
+          </a>
+          <div id="collapseEigth" class="collapse" data-parent="#accordion">
+            <div class="card-body">
+              <ul>
+                <li>Lorem Ipsum</li>
+               
+              </ul>
+            </div>
+          </div>
+        </div> -->
+
+        <!-- <div class="card card-accordion">
+          <a class="card-link" data-toggle="collapse" href="#collapseNine">
+            <div class="card-header">
+              День 9 з курсу Основи web-сайтів
+            </div>
+          </a>
+          <div id="collapseNine" class="collapse" data-parent="#accordion">
+            <div class="card-body">
+              <ul>
+                <li>Lorem Ipsum</li>
+                
+              </ul>
+            </div>
+          </div>
+        </div> -->
+
+ <!--      </div>
+    </div>
+  </section> -->
+<section class="pt-5 pb-5" id="About-Course">
+    <div class="container">
+      <h3 class="text-uppercase text-center mb-4 header-h3"></h3>
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+          <p class="about-course-a">
+            <font color="red" face="Arial">
+            <b> УВАГА! Реєстрація на курси почнеться 21 грудня  і триватиме до 31 грудня 2018 р.</b>
+            </font>
+          </p> 
+           
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="pt-5 pb-5" id="Program-Course">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-6 text-center mb-4 wow fadeIn" data-wow-duration=".7s" data-wow-delay="0.2s">
+          <div class="card card-1">
+            <a class="mt-5" href="olimp.html">
+              <img class="img-fluid" src="img/courses/olimp.png" width="150px" height="150px" alt="">
+            </a>
+            <div class="card-body">
+              <h3 class="mt-2">Олімпійський резерв</h3>
+             <!--  <ul class="mt-3">
+                <li class="card-li">Lorem</li>
+                <li class="card-li">Lorem</li>
+                <li class="card-li">Lorem</li>
+              </ul> -->
+              <a class="btn mt-2 mb-4" target="_blank" href="https://docs.google.com/forms/d/1CzIpWZ0VU1fe0NeXwfENdebMx7hxofWXA37uxGacKP0/edit?usp=sharing">Зареєструватись</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-6 text-center mb-4 wow fadeIn" data-wow-duration=".7s" data-wow-delay="0.6s">
+          <div class="card card-2">
+            <a class="mt-5" href="android.html">
+              <img class="img-fluid" src="img/courses/android.png" width="150px" height="150px" alt="">
+            </a>
+            <div class="card-body">
+              <h3 class="mt-2">Кодуємо Android</h3>
+              <!-- <ul class="mt-3">
+                <li class="card-li">Lorem</li>
+                <li class="card-li">Lorem</li>
+                <li class="card-li">Lorem</li>
+              </ul> -->
+              <a class="btn mt-2 mb-4" target="_blank" href="https://docs.google.com/forms/d/1BwtFrV4XgtPBQGq07gUtNokoLv0okKX4EeEsXcki8xI/edit?usp=sharing">Зареєструватись</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4 col-sm-6 offset-lg-0 offset-md-0 offset-sm-3 text-center mb-4 wow fadeIn" data-wow-duration=".7s" data-wow-delay="1.0s">
+          
+          <div class="card card-3">
+            <a class="mt-5" href="web.html">
+              <img class="img-fluid" src="img/courses/web.png" width="150px" height="150px" alt="">
+            </a>
+            <div class="card-body">
+              <h3 class="mt-2">Основи web-сайтів</h3>
+             <!--  <ul class="mt-3">
+                <li class="card-li">Lorem</li>
+                
+              </ul> -->
+              <a class="btn mt-2 mb-4" target="_blank" href="https://docs.google.com/forms/d/1CBVziX4eqh4sO7UkUqq2vNrHFQwnYlSXQW_aB9QVN4g/edit?usp=sharing">Зареєструватись</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- Our Team -->
+  <section class="pt-5 pb-1" id="Our-Team">
+    <div class="container">
+      <h3 class="text-uppercase text-center mb-5 header-h3">Лектори курсу</h3>
+      <div class="row">
+        
+        <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4 responsive-ourTeam">
+          <img class="img-fluid img-rounded" src="img/ourTeam/shep.png" alt="">
+          <h3 class="mt-4 ourTeam-h3">Шепелюк Галина Степанівна
+            <!-- <small>Job Name</small> -->
+          </h3>
+          <span id="dots-1" class="dots">...</span>
+          <span id="more-1" class="more">
+            викладач-методист кафедри "Інформаційні технології"<br>
+          </span>
+          <a id="readMoreBtn-1" class="readMore" data-open="false">Детальніше...</a>
+        </div>
+
+        <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4 responsive-ourTeam">
+          <img class="img-fluid img-rounded" src="img/ourTeam/Nikishn.png" alt="">
+          <h3 class="mt-4 ourTeam-h3">Нікішин Володимир
+            <!-- <small>Job Name</small> -->
+          </h3>
+          <span id="dots-2" class="dots">...</span>
+          <span id="more-2" class="more">
+            студент ІІ курсу "Інженерія програмного забезпечення"<br>
+          </span>
+          <a id="readMoreBtn-2" class="readMore" data-open="false">Детальніше...</a>
+        </div>
+
+        <!-- <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4 responsive-ourTeam">
+          <img class="img-fluid img-rounded" src="img/ourTeam/Kikec.jpg"  alt="">
+          <h3 class="mt-4 ourTeam-h3">Кікець Микола -->
+            <!-- <small>Job Name</small> -->
+         <!--  </h3>
+          <span id="dots-1" class="dots">...</span>
+          <span id="more-1" class="more">
+           студент<br>
+          </span>
+          <a id="readMoreBtn-1" class="readMore" data-open="false">Детальніше...</a>
+        </div> -->
+
+         <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4 responsive-ourTeam">
+          <img class="img-fluid img-rounded" src="img/ourTeam/Vadym.png" alt="">
+          <h3 class="mt-4 ourTeam-h3">Степанюк Вадим 
+            <!-- <small>Job Name</small> -->
+          </h3>
+          <span id="dots-3" class="dots">...</span>
+          <span id="more-3" class="more">
+            випускник ВТ НУХТ, ментор навчальної програми BrainBasket Foundation  <br>
+          </span>
+          <a id="readMoreBtn-3" class="readMore" data-open="false">Детальніше...</a>
+        </div>
+
+      <!-- <div class="row pt-4 pb-3">
+        <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4 responsive-ourTeam">
+          <img class="img-fluid img-rounded" src="http://placehold.it/150x150" alt="">
+          <h3 class="mt-4 ourTeam-h3">Name SurName
+            <small>Job Name</small>
+          </h3>
+          <span id="dots-5">...</span>
+          <span id="more-5">
+            What does this team member to? Keep it short! This is also a great spot for social links!
+          </span>
+          <a onclick="readMore5()" id="readMoreBtn-5">Детальніше</a>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4 responsive-ourTeam">
+          <img class="img-fluid img-rounded" src="http://placehold.it/150x150" alt="">
+          <h3 class="mt-4 ourTeam-h3">Name SurName
+            <small>Job Name</small>
+          </h3>
+          <span id="dots-6">...</span>
+          <span id="more-6">
+            What does this team member to? Keep it short! This is also a great spot for social links!
+          </span>
+          <a onclick="readMore6()" id="readMoreBtn-6">Детальніше</a>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4 responsive-ourTeam">
+          <img class="img-fluid img-rounded" src="http://placehold.it/150x150" alt="">
+          <h3 class="mt-4 ourTeam-h3">Name SurName
+            <small>Job Name</small>
+          </h3>
+          <span id="dots-7">...</span>
+          <span id="more-7">
+            What does this team member to? Keep it short! This is also a great spot for social links!
+          </span>
+          <a onclick="readMore7()" id="readMoreBtn-7">Детальніше...</a>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4 responsive-ourTeam">
+          <img class="img-fluid img-rounded" src="http://placehold.it/150x150" alt="">
+          <h3 class="mt-4 ourTeam-h3">Name SurName
+            <small>Job Name</small>
+          </h3>
+          <span id="dots-8">...</span>
+          <span id="more-8">
+            What does this team member to? Keep it short! This is also a great spot for social links!
+          </span>
+          <a onclick="readMore8()" id="readMoreBtn-8">Детальніше...</a>
+        </div>
+      </div> -->
+     
+    </div>
+  </section>
+
+ <!-- Contacts -->
+  <section class="pt-5 pb-5" id="Contacts">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+          <h3 class="contacts-h3 contacts-h3-1 pb-4">контакти</h3>
+          <ul class="contacts-ul pt-4">
+
+            <li class="contacts-li">
+              <i class="contacts-icons fas fa-map-marked-alt" aria-hidden="true"></i>
+                вул. Кафедральна, 6, м. Луцьк, Україна, 43016
+            </li>
+
+            <li class="contacts-li">
+              <!-- fa  fa-phone іконка телефону  -->
+              <i class="contacts-icons fa  fa-phone" aria-hidden="true"></i>
+              <span class="contact-number-span-1">
+                (0332) 721 217 - приймальна директора ВоК НУХТ</span>
+             </li> 
+
+             <li class="contacts-li">
+              <!--  fas fa-mobile-alt іконка мобільного  -->
+              <i class="contacts-icons fas fa-mobile-alt" aria-hidden="true"></i>
+              <span class="contact-number-span-1">
+                066 079 9579 - Шепелюк Галина Степанівна - організатор Зимової школи</span>
+            </li>
+
+            <li class="contacts-li">
+              <i class="contacts-icons fas fa-envelope" aria-hidden="true"></i>
+              <span class="contact-number-span-1">
+                vocnuft@gmail.com</span>
+            </li>
+
+            <li class="contacts-li">
+              <i class="contacts-icons fa  fa-question" aria-hidden="true"></i>
+              <span class="contact-number-span-1">Виникли питання?</span>
+               <a class="contacts-a" href="https://docs.google.com/forms/d/1SutQsnXurfWarHhfGo_HYZJTXRx_hS82RnE71phY3Io/edit?usp=sharing" target="_blank"> Задайте їх тут!) </a>
+            </li>
+          </ul>
+         
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+          <h3 class="contacts-h3 contacts-h3-2 pb-4">де ми знаходимось</h3>
+          <iframe src="https://snazzymaps.com/embed/114807" class="map"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Scripts -->
+  <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/wow.js"></script>
+  <script src="js/index.js"></script>
+
+</body>
+
+</html>

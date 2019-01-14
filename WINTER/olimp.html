@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Title -->
+  <title>Олімпійський резерв - Зимова школа програмування</title>
+
+  <!-- Responsive -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- Seo -->
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Favicon -->
+  <link rel="icon" href="img/favicon/favicon.png" type="image/x-icon">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/hamburgers.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+
+</head>
+
+<body>
+
+  <!-- Scroll Top Btn -->
+  <!-- Кнопка наверх -->
+  <div id="Scroll Top">
+    <a class="btn-top">
+      <i class="fa fa-arrow-up"></i>
+    </a>
+  </div>
+<!-- 
+  /*!-- Main Image  карусель з одного малюнка --*/
+  <section id="Main-Image">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner" role="listbox">
+        <div class="carousel-item-olimp active" style="background-image: linear-gradient(to right bottom, rgba(61, 61, 61, 0.8), rgba(28, 28, 28, 0.8)), url('img/slider/olimp1.jpg');">
+          <div class="carousel-caption carousel-caption-olimp">
+            <h3 class="course-Olimp-h3">Зимова школа програмування</h3>
+            <p class="course-Olimp-p">Олімпійський резерв</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+ -->
+  <!-- Слайдер карусель  -->
+  <!-- Main Image -->
+  <section id="Main-Image">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        
+        <!-- Слайд 1 -->
+        <div class="carousel-item active" style="background-image: linear-gradient(to right bottom, rgba(61, 61, 61, 0.8), rgba(28, 28, 28, 0.8)), url('img/slider/olimp1.jpg');">
+          <div class="carousel-caption">
+            <h3 class="">Олімпійський резерв</h3>
+            <p>Всеукраїнські олімпіади</p>
+          </div>
+        </div>
+        
+        <!-- Слайд 2 -->
+        <div class="carousel-item" style="background-image: linear-gradient(to right bottom, rgba(61, 61, 61, 0.8), rgba(28, 28, 28, 0.8)), url('img/slider/android.jpg');">
+          <div class="carousel-caption">
+            <h3 class="">Олімпійський резерв</h3>
+            <p>Цікаві задачі та нестандартні рішення</p>
+          </div>
+        </div>
+        
+        <!-- Слайд 3 -->
+        <div class="carousel-item" style="background-image: linear-gradient(to right bottom, rgba(61, 61, 61, 0.8), rgba(28, 28, 28, 0.8)), url('img/slider/web.jpg');">
+          <div class="carousel-caption">
+            <h3 class="">Олімпійський резерв</h3>
+            <p> Цікаві проекти</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+   <!-- Navigation -->
+  <nav id="Navigation">
+
+    <div id="myNav" class="overlay">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <div class="overlay-content">
+        <a class="navLink" onclick="closeNav()" href="index.html"  > Головна          </a>
+        <a class="navLink" onclick="closeNav()" href="android.html">Кодуємо Android   </a>
+        <a class="navLink" onclick="closeNav()" href="web.html"    >Основи Web-дизайну</a>
+        <a class="navLink" onclick="closeNav()" href="#Our-Team"   >Викладачі курсу   </a>
+        <a class="navLink" onclick="closeNav()" href="#Contacts"   >Контакти          </a>
+      </div>
+    </div>
+    <!-- hamburgers.css -->
+    <button class="hamburger hamburger--collapse" type="button" onclick="openNav()">
+      <span class="hamburger-box fixHamb" id="hambFadeIn">
+        <span class="hamburger-inner"></span>
+      </span>
+    </button>
+  </nav>
+  <!-- About Course -->
+  <section class="pt-5 pb-5" id="About-Course">
+    <div class="container">
+      <h3 class="text-uppercase text-center mb-4 header-h3">Безкоштовні курси підготовки до олімпіад з програмування</h3>
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+          <p class="about-course-p">
+              Секція "Олімпійський резер" запрошує учнів та студентів, що мають базові знання мови програмування С++ (структура програми, базові керуючі конструкції). <br>
+              Основне завдання секції підготовка до участі у міжнародній олімпіаді з програмування «The ACM-ICPC International Collegiate Programming Contest», що проводяться під егідою Асоціації обчислювальної техніки (ACM) за участі університета Бейлора (https://icpc.baylor.edu). Проводиться аналіз алгоритмів, рішення цікавих олімпіадних задач. Наприкінці навчання проводиться олімпіада зимової школи. Переможці фінальної олімпіади  отримують сертифікати, що забезпечують студентам коледжу  додаткові бали на екзамен з програмування. <br>
+              Заняття проводять досвідчені викладачі та студенти коледжу, переможці Всеукраїнських олімпіад, випускники що працюють в сфері ІТ.<br>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Program of Course -->
+  <section class="pt-2 pb-3" id="Program-Day">
+    <div class="container">
+      <div id="accordion">
+        <h3 class="days-h3">Програма курсу</h3>
+        <!-- Day 1 -->
+        <div class="card card-accordion">
+          <a class="card-link" data-toggle="collapse" href="#collapseOne">
+            <div class="card-header">
+             Заняття 1. Організаційне заняття
+            </div>
+          </a>
+          <div id="collapseOne" class="collapse" data-parent="#accordion">
+            <div class="card-body">
+              <ul>Знайомство з струкутурою Волинського коледжу, відділенням "Інформатики та комп'ютерної техніки"
+                <li> <b>Семінарське заняття.</b> Міжнародні та Всеукраїнські олімпіади з програмування
+                </li>
+                <li> <b>Практична робота. Логічні задачі та програмування</b>
+                </li>
+                <li>Середовище Blokly. Ігри програмістів</li>
+                <li>Реєстрація на олімпіадних серверах. </li>
+                <li>Електронні ресурси Зимової школи програмування. Реєстрація на Moodle</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Day 2 
+        <div class="card card-accordion">
+          <a class="card-link" data-toggle="collapse" href="#collapseTwo">
+            <div class="card-header">
+             Заняття 2. Лінійні алгоритми на логіку обчислень
+            </div>
+          </a>
+          <div id="collapseTwo" class="collapse" data-parent="#accordion">
+            <div class="card-body">
+              <ul>При вирішенні завдань цього розділу забороняється використовувати будь-які інші засоби на зразок розгалужень, циклів, тернарних операцій та інші матеріали наступних розділів курсу. У цій забороні сенс головоломки деяких завдань. Спробуйте докласти всіх зусиль, щоб вирішити в цьому стилі такі завдання.
+                <li>
+                <b>Семінарське заняття</b> Структура програми. Типи даних. Операції вводу/виводу   
+                </li>
+                <li> 
+                  <b>Завдання</b>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>-->
+
+        <!-- Day 3 
+        <div class="card card-accordion">
+          <a class="card-link" data-toggle="collapse" href="#collapseThree">
+            <div class="card-header">
+              Заняття 3. Задачі на розгалуження
+            </div>
+          </a>
+          <div id="collapseThree" class="collapse" data-parent="#accordion">
+            <div class="card-body">
+              <ul>В основі рішення задач лежить викоистання оператора <b>іf</b>
+                <li> </li>
+              </ul>
+            </div>
+          </div>
+        </div>-->
+        <!-- Day 4 
+        <div class="card card-accordion">
+          <a class="card-link" data-toggle="collapse" href="#collapseFour">
+            <div class="card-header">
+              Заняття 4. Циклічні алгоритми
+            </div>
+          </a>
+          <div id="collapseFour" class="collapse" data-parent="#accordion">
+            <div class="card-body">
+              <ul>
+                <li> </li>
+                <li> </li>
+              </ul>
+            </div>
+          </div>
+        </div>-->
+
+        <!-- Day 5 
+        <div class="card card-accordion">
+          <a class="card-link" data-toggle="collapse" href="#collapseFive">
+            <div class="card-header">
+              День 5 з курсу Олімпійський резерв
+            </div>
+          </a>
+          <div id="collapseFive" class="collapse" data-parent="#accordion">
+            <div class="card-body">
+              <ul>
+                <li> </li>
+                <li> </li>
+              </ul>
+            </div>
+          </div>
+        </div>-->
+
+        <!-- Day 6 
+        <div class="card card-accordion">
+          <a class="card-link" data-toggle="collapse" href="#collapseSix">
+            <div class="card-header">
+              День 6 з курсу Олімпійський резерв
+            </div>
+          </a>
+          <div id="collapseSix" class="collapse" data-parent="#accordion">
+            <div class="card-body">
+              <ul>
+                <li> </li>
+                <li> </li>
+                
+              </ul>
+            </div>
+          </div>
+        </div>-->
+
+        <!-- Day 7 
+        <div class="card card-accordion">
+          <a class="card-link" data-toggle="collapse" href="#collapseSeven">
+            <div class="card-header">
+              День 7 з курсу Олімпійський резерв
+            </div>
+          </a>
+          <div id="collapseSeven" class="collapse" data-parent="#accordion">
+            <div class="card-body">
+              <ul>
+                <li> </li>
+                <li> </li>
+                
+              </ul>
+            </div>
+          </div>
+        </div>-->
+
+        <!-- Day 8
+        <div class="card card-accordion">
+          <a class="card-link" data-toggle="collapse" href="#collapseEigth">
+            <div class="card-header">
+              День 8 з курсу Олімпійський резерв
+            </div>
+          </a>
+          <div id="collapseEigth" class="collapse" data-parent="#accordion">
+            <div class="card-body">
+              <ul>
+                <li> </li>
+                <li> </li>
+              </ul>
+            </div>
+          </div>
+        </div>  -->
+
+        <!-- Day 9 -->
+        <div class="card card-accordion">
+          <a class="card-link" data-toggle="collapse" href="#collapseNine">
+            <div class="card-header">
+             Фінальне заняття. ОЛІМПІАДА
+            </div>
+          </a>
+          <div id="collapseNine" class="collapse" data-parent="#accordion">
+            <div class="card-body">
+              <ul>
+                <li>
+                  <b>ПРАВИЛА ПРОВЕДЕННЯ СТУДЕНТСЬКОЇ ОЛІМПІАДИ З ПРОГРАМУВАННЯ</b><br>
+                  Кожному учню надається один комп'ютер. Для розв’язання пропонується 10 - 15 задач різного рівня складності. Тривалість змагання – 3 годин (журі має право продовжити змагання у випадку непередбачених обставин).<br>
+                  Перевірка представлених розв’язань виконується під час змагань у автоматичному режимі.Розв’язання правильне – якщо воно видає вірні відповіді на усі тести. Якщо розв’язання не правильне – повідомляється тип помилки.<br>
+                  Рішення учасників перевіряється на єдиному наборі тестів, що недоступний учасникам.  
+                  Розв’язанням задачі є файл з вихідним текстом програми, складеної на одній із дозволених мов програмування.<br>
+                  Забороняється приносити і використовувати інформацію в електронному вигляді, особисті комп'ютери або сматфони.
+                  У розв’язаннях задач забороняється: виводити будь-яку інформацію на екран; використовувати читання і запис векторів переривань; створювати і працювати з будь-якими файлами, за винятком тих, які явним чином вказані в умові задачі (вхідні і вихідні файли); працювати з підкаталогами; будь-яке використання мережевих засобів; використовувати будь-які інші засоби чи дії, які можуть порушити роботу програмного забезпечення олімпіади.<br>
+                  Команді, яка надіслала розв’язання на перевірку повідомляється, правильне воно чи ні. 
+                  Під час змагань учасники можуть задавати запитання стосовно умов задач. Якщо запитання некоректне або відповідь прямо випливає з умови задачі, журі відповідає «Без коментарів». Якщо журі погоджується, що в умові присутня неясність або помилка – про це повідомляється усім учасникам олімпіади.
+                  Виграє команда, яка розв’язала найбільшу кількість задач. У разі рівності кількості розв’язаних задач, виграє команда з найменшим сумарним часом їх розв’язання з додаванням 20 хвилин за кожне відправлене неправильне розв’язання (враховується тільки для розв’язаних задач).<br>
+                  Під час змагань учасники та гості можуть переглядати на табло поточні результати усіх команд.</li>
+                <li></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+   <section class="pt-5 pb-5" id="Program-Course">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-6 text-center mb-4 wow fadeIn" data-wow-duration=".7s" data-wow-delay="0.2s">
+          <div class="card card-1">
+            <a class="mt-5" href="olimp.html">
+              <img class="img-fluid" src="img/courses/olimp.png" width="150px" height="150px" alt="">
+            </a>
+            <div class="card-body">
+              <h3 class="mt-2">Олімпійський резерв</h3>
+             <!--  <ul class="mt-3">
+                <li class="card-li">Lorem</li>
+                <li class="card-li">Lorem</li>
+                <li class="card-li">Lorem</li>
+              </ul> -->
+              <a class="btn mt-2 mb-4" target="_blank" href="https://docs.google.com/forms/d/1CzIpWZ0VU1fe0NeXwfENdebMx7hxofWXA37uxGacKP0/edit?usp=sharing">Зареєструватись</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-6 text-center mb-4 wow fadeIn" data-wow-duration=".7s" data-wow-delay="0.6s">
+          <div class="card card-2">
+            <a class="mt-5" href="android.html">
+              <img class="img-fluid" src="img/courses/android.png" width="150px" height="150px" alt="">
+            </a>
+            <div class="card-body">
+              <h3 class="mt-2">Кодуємо Android</h3>
+              <!-- <ul class="mt-3">
+                <li class="card-li">Lorem</li>
+                <li class="card-li">Lorem</li>
+                <li class="card-li">Lorem</li>
+              </ul> -->
+              <a class="btn mt-2 mb-4" target="_blank" href="https://docs.google.com/forms/d/1BwtFrV4XgtPBQGq07gUtNokoLv0okKX4EeEsXcki8xI/edit?usp=sharing">Зареєструватись</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4 col-sm-6 offset-lg-0 offset-md-0 offset-sm-3 text-center mb-4 wow fadeIn" data-wow-duration=".7s" data-wow-delay="1.0s">
+          
+          <div class="card card-3">
+            <a class="mt-5" href="web.html">
+              <img class="img-fluid" src="img/courses/web.png" width="150px" height="150px" alt="">
+            </a>
+            <div class="card-body">
+              <h3 class="mt-2">Основи web-сайтів</h3>
+             <!--  <ul class="mt-3">
+                <li class="card-li">Lorem</li>
+                
+              </ul> -->
+              <a class="btn mt-2 mb-4" target="_blank" href="https://docs.google.com/forms/d/1CBVziX4eqh4sO7UkUqq2vNrHFQwnYlSXQW_aB9QVN4g/edit?usp=sharing">Зареєструватись</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Our Team -->
+  <section class="pt-5 pb-1" id="Our-Team">
+    <div class="container">
+      <h3 class="text-uppercase text-center mb-5 header-h3">Ментори курсу</h3>
+      <div class="row">
+        
+      <!--   <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4 responsive-ourTeam">
+          <img class="img-fluid img-rounded" src="img/ourTeam/shep.png" alt="">
+          <h3 class="mt-4 ourTeam-h3">Шепелюк Галина Степанівна
+          </h3>
+          <span id="dots-1" class="dots">...</span>
+          <span id="more-1" class="more">
+            викладач-методист кафедри "Інформаційні технології" <br>
+          </span>
+          
+           <a id="readMoreBtn-1" class="readMore" data-open="false">Детальніше...</a>
+        </div>
+
+        <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4 responsive-ourTeam">
+          <img class="img-fluid img-rounded" src="img/ourTeam/Formanuk.PNG" alt="">
+          <h3 class="mt-4 ourTeam-h3">Форманюк Дмитро
+            <small></small>
+          </h3>
+         <span id="dots-2" class="dots">...</span>
+          <span id="more-2" class="more">
+            on-line консультант<br>Випусник 2018 кафедри "Інформаційних технологій" за спеціальність "Розробка програмного забезпечення". Фіналіст Всеукраїнської олімпіади 2017. 
+            Студент Ужгородськога національного університету, учасник півфіналу Всесвітньої олімпіади з програмування 2018 (Східноєвропейський регіон) <br>
+          </span>
+         
+          <a id="readMoreBtn-2" class="readMore" data-open="false">Детальніше...</a>
+        </div>
+
+        <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4 responsive-ourTeam">
+          <img class="img-fluid img-rounded" src="img/ourTeam/Kikec.jpg"  alt="">
+          <h3 class="mt-4 ourTeam-h3">Кікець Микола
+           
+          </h3>
+         <span id="dots-3" class="dots">...</span>
+          <span id="more-3" class="more">
+           студент ІV курсу, фіналіст Всеукраїнської олімпіади 2017 <br>
+          </span>
+         
+          <a id="readMoreBtn-3" class="readMore" data-open="false">Детальніше...</a>
+        </div> -->
+        
+        
+      <!-- ------------------------------------------------------------------------------------- -->
+      <div class="row pt-4 pb-3">
+        <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4 responsive-ourTeam">
+          <img class="img-fluid img-rounded" src="img/ourTeam/shep.png" alt="">
+          <h3 class="mt-4 ourTeam-h3">Галина Шепелюк
+            <small>Тренер команд</small>
+          </h3>
+          <span id="dots-5">...</span>
+          <span id="more-5">
+            організатор Зимової школи програмування
+            <br>
+          </span>
+          <a onclick="readMore5()" id="readMoreBtn-5">Детальніше</a>
+        </div>
+       <!-- ------------------------------------------------------------------------------------- --> 
+        <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4 responsive-ourTeam">
+          <img class="img-fluid img-rounded" src="" alt="">
+          <h3 class="mt-4 ourTeam-h3">Чижик Нікіта 
+            <small>студент ІІ курсу</small>
+          </h3>
+          <span id="dots-6">...</span>
+          <span id="more-6">
+           
+          </span>
+          <a onclick="readMore6()" id="readMoreBtn-6">Детальніше</a>
+        </div>
+        <!-- ------------------------------------------------------------------------------------- --> 
+        <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4 responsive-ourTeam">
+          <img class="img-fluid img-rounded" src="img/ourTeam/Formanuk.PNG" alt="">
+          <h3 class="mt-4 ourTeam-h3">Дмитро Форманюк <br>
+            <small>випускник 2018  on-line консультант </small>
+          </h3>
+          <span id="dots-7">...</span>
+          <span id="more-7">
+            Фіналіст Всеукраїнської олімпіади 2017. Студент Ужгородськога національного університету, учасник півфіналу Всесвітньої олімпіади з програмування 2018 (Східноєвропейський регіон) <br>
+          </span>
+          <a onclick="readMore7()" id="readMoreBtn-7">Детальніше...</a>
+        </div>
+         <!-- ------------------------------------------------------------------------------------- --> 
+        <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4 responsive-ourTeam">
+          <img class="img-fluid img-rounded" src="img/ourTeam/Kikec.jpg" alt="">
+          <h3 class="mt-4 ourTeam-h3">Микола Кікець<br>
+            <small>студент IV курсу</small>
+          </h3>
+          <span id="dots-8">...</span>
+          <span id="more-8">
+             Фіналіст Всеукраїнської олімпіади 2017<br>
+          </span>
+          <a onclick="readMore8()" id="readMoreBtn-8">Детальніше...</a>
+        </div>
+      </div> 
+    </div>
+    </div> 
+  </section>
+    
+
+  <!-- Contacts -->
+  <section class="pt-5 pb-5" id="Contacts">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+          <h3 class="contacts-h3 contacts-h3-1 pb-4">контакти</h3>
+          <ul class="contacts-ul pt-4">
+            <li class="contacts-li"><i class="contacts-icons fas fa-map-marked-alt" aria-hidden="true"></i>вул. Кафедральна, 6, м. Луцьк, Україна, 43016</li>
+            <li class="contacts-li"><i class="contacts-icons fa  fa-phone          " aria-hidden="true"></i>
+              <span class="contact-number-span-1">(0332) 721 217 - приймальна директора ВоКНУХТ</span>
+              <br>
+              <span class="contact-number-span-2">066 079 9579 - Шепелюк Г.С. - організатор курсу</span>
+            </li>
+            <li class="contacts-li"><i class="contacts-icons fas fa-envelope      " aria-hidden="true"></i>vocnuft@gmail.com</li>
+          </ul>
+          <h4 class="contacts-h4">Є питання?
+            <a class="contacts-a" href="https://docs.google.com/forms/d/1SutQsnXurfWarHhfGo_HYZJTXRx_hS82RnE71phY3Io/edit?usp=sharing" target="_blank"> Задай його!) </a>
+          </h4>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+          <h3 class="contacts-h3 contacts-h3-2 pb-4">де ми знаходимось</h3>
+          <iframe src="https://snazzymaps.com/embed/114807" class="map"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Scripts -->
+  <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/wow.js"></script>
+  <script src="js/index.js"></script>
+
+</body>
+
+</html>
